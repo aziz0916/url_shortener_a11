@@ -1,0 +1,11 @@
+<div class="container mt-5">
+  <div class="row text-center">
+    <form action="/urls" method="POST">
+      {{!-- 在input加上required，防止若使用者沒有輸入內容，就按下了送出鈕，讓表單送出並提示使用者 --}}
+      <input type="url" name="url" id="url" placeholder="Input URL here" size="60" required>
+      <div class="mt-3">
+        <button type="submit" class="btn btn-outline-primary btn-lg">Shorten</button>
+      </div>
+    </form>
+  </div>
+</div>
